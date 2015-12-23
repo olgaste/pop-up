@@ -1,0 +1,59 @@
+/* Modules */
+
+.nav-with-dropdown{
+	margin: 20px;
+	font-size: 0;
+}
+
+.nav-with-dropdown *{
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.nav-with-dropdown > li{
+	background-color: #fff;
+	display: inline-block;
+}
+
+.nav-with-dropdown > li > a{
+	text-decoration: none;
+	color: #29162A;
+	display: block;
+	padding: 20px;
+}
+
+.nav-with-dropdown > li:hover a{
+	background: #555555;
+	color: #fff;
+}
+
+.nav-with-dropdown .item-with-subnav{
+	position: relative;
+}
+
+/* Subnav */
+
+.nav-with-dropdown .item-with-subnav:hover .subnav{
+	display: block;
+	background: #555555;
+	padding: 0;
+}
+
+.subnav{
+	position: absolute;
+	display: none;
+	list-style-type: none;
+	background: #555555;
+}
+
+.subnav a{
+		color: #fff;
+		text-decoration: none;
+		display: block;
+		padding: 20px;
+}
+
+.subnav li:hover a{
+	background: #666666;
+}
+
